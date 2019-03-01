@@ -1,0 +1,8 @@
+dist: trusty
+sudo: required
+language:
+  - java
+script:
+  - java -version
+  # Run your build commands next
+  - gradle build
